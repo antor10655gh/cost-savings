@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost and Savings</title>
+    <!-- font awesome kit link is here -->
+    <script src="https://kit.fontawesome.com/a8717e94fb.js" crossorigin="anonymous"></script>
+    <!-- add bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- add stylesheet link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="text-center my-5">
+        <h1 class="fw-bold">Cost <span class="icon">&</span> Savings <i class="fas fa-money-check-alt icon"></i></h1>
+    </header>
+    <main class="mb-5">
+        <section class="container">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 grid g-4">
+                <div class="col">
+                    <div class="side-banner">
+                        <img class="img-fluid" src="images/finance.jpg" alt="finance.jpg">
+                    </div>
+                </div>
+                <div class="col calculate-side">
+                    <div class="side-calculate mt-5">
+                        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
+                            <div class="col">
+                                <div class="title-income">
+                                    <h3 class="text-center fw-bold">Income</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1">
+                            <div class="col">
+                                <div class="row d-flex justify-content-between">
+                                    <div class="col-4 py-3">
+                                        <h5 class="float-end level-color">Income:</h5>
+                                    </div>
+                                    <div class="col-8 p-2 pe-5">
+                                        <input type="text" name="income" id="income">
+                                        <p id="requires-sms">field is required</p>
+                                    </div>
+                                </div>
+                                <div class="mt-2">
+                                    <h3 class="text-center fw-bold">Expenses</h3>
+                                </div>
+                                <div class="row d-flex justify-content-between">
+                                    <div class="col-4 py-3">
+                                        <h5 class="float-end level-color">Food:</h5>
+                                    </div>
+                                    <div class="col-8 p-2 pe-5">
+                                        <input type="text" name="" id="food-cost">
+                                        <p id="requires-sms1">field is required</p>
+                                    </div>
+                                </div>
+                                <div class="row d-flex justify-content-between">
+                                    <div class="col-4 py-3">
+                                        <h5 class="float-end level-color">Rent:</h5>
+                                    </div>
+                                    <div class="col-8 p-2 pe-5">
+                                        <input type="text" name="" id="rent-cost">
+                                        <p id="requires-sms2">field is required</p>
+                                    </div>
+                                </div>
+                                <div class="row d-flex justify-content-between">
+                                    <div class="col-4 py-3">
+                                        <h5 class="float-end level-color">Clothes:</h5>
+                                    </div>
+                                    <div class="col-8 p-2 pe-5">
+                                        <input type="text" name="" id="cloth-cost">
+                                        <p id="requires-sms3">field is required</p>
+                                    </div>
+                                </div>
+                                <div class="mt-3 d-flex justify-content-center">
+                                    <button id="calculate-button" class="button">Calculate</button>
+                                </div>
+                                <div class="mt-5">
+                                    <h5 class="text-center"><span class="level-color">Total Expenses: </span><span id="total-expenses">0</span> Taka</h5>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="text-center"><span class="level-color">Balance: </span><span id="balance">0</span> Taka</h5>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col d-flex flex-column flex-lg-row justify-content-lg-between py-3">
+                                        <h5 class="py-2 px-lg-2 text-center level-color">Save:</h5>
+                                        <input type="text" name="income" id="savings">
+                                        <p id="requires-sms4">field is required</p>
+                                        <h5 class="py-2 px-lg-4 text-center">%</h5>
+                                        <button id="savings-button" class="save-button w-100">Save</button>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="text-center"><span class="level-color">Saving Amount: </span><span id="savings-amount">0</span> Taka</h5>
+                                </div>
+                                <div class="mt-4">
+                                    <h5 class="text-center"><span class="level-color">Remaining Balance: </span><span id="remaining-savings-amount">0</span> Taka</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- add script.js file -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

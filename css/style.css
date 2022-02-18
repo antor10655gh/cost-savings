@@ -1,0 +1,94 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@600;700&family=Dosis:wght@500&family=Fira+Code:wght@500&family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Open+Sans&family=Poppins&family=Ubuntu:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #9ddeef;
+}
+
+.calculate-side {
+    background-color: #13cfc257;
+}
+
+.icon {
+    color: #13cfc3ec;
+}
+
+.level-color {
+    color: #ffffff;
+}
+
+/* input field css */
+input[type=text] {
+    width: 100%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+/* Button CSS */
+.button {
+    background: #28abbd;
+    border-radius: 999px;
+    box-shadow: #28abbd 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 38px;
+    user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+.save-button {
+    background: #28abbd;
+    border-radius: 0px;
+    box-shadow: #28abbd 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 38px;
+    user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+#requires-sms {
+    display: none;
+    color: red;
+}
+
+#requires-sms1 {
+    display: none;
+    color: red;
+}
+
+#requires-sms2 {
+    display: none;
+    color: red;
+}
+
+#requires-sms3 {
+    display: none;
+    color: red;
+}
+
+#requires-sms4 {
+    display: none;
+    color: red;
+}
